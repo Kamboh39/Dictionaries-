@@ -1,0 +1,24 @@
+Kamboh = {
+    'city': 'Lahore',
+    'age': 23,
+    'profession': 'Data Analyst',
+    'institute': 'COMSATS',
+    'favorite_food': 'sushi',
+    'leisure_activity': 'reading'
+}
+
+print(Kamboh.copy())             # Makes a copy of the dictionary and prints it
+
+print(Kamboh.keys())             # Prints all the keys
+
+print(Kamboh.items())            # Prints all key-value as tuples
+
+print(Kamboh.values())           # Prints all values
+
+print(Kamboh.get('favorite_food'))  # Retrieves the value for key 'favorite_food'
+
+for key, value in Kamboh.items():
+     print(key, value)
+     break
+
+print(Kamboh.clear())            # Clears the dictionary and prints None
